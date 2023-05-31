@@ -1,0 +1,98 @@
+[
+    {
+        "items": [
+            {
+                "icon": [
+                    "exclamationmark.triangle",
+                    "#FFCC66"
+                ],
+                "type": "switch",
+                "title": "ALERT_BEFORE_WAKE",
+                "key": "alertBeforeWake",
+                "value": true
+            }
+        ]
+    },
+    {
+        "title": "SSH",
+        "items": [
+            {
+                "icon": [
+                    "command"
+                ],
+                "type": "switch",
+                "title": "SSH",
+                "key": "ssh",
+                "value": false
+            },
+            {
+                "icon": [
+                    "desktopcomputer"
+                ],
+                "type": "input",
+                "title": "Host",
+                "key": "sshHost",
+                "value": ""
+            },
+            {
+                "icon": [
+                    "person"
+                ],
+                "type": "input",
+                "title": "Username",
+                "key": "sshUsername",
+                "value": ""
+            },
+            {
+                "icon": [
+                    "eye.slash"
+                ],
+                "type": "input",
+                "secure": true,
+                "title": "Password",
+                "key": "sshPassword",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "items": [
+            {
+                "icon": [
+                    "/assets/icon/github.com.jpeg",
+                    "white"
+                ],
+                "title": "Github",
+                "type": "info",
+                "key": "github",
+                "value": [
+                    "ipuppet/WOL",
+                    "https://github.com/ipuppet/WOL"
+                ]
+            },
+            {
+                "icon": [
+                    "person.fill",
+                    "#FF9900"
+                ],
+                "title": "AUTHOR",
+                "type": "info",
+                "key": "author",
+                "value": [
+                    "ipuppet",
+                    "https://blog.ipuppet.top"
+                ]
+            },
+            {
+                "icon": [
+                    "book.fill",
+                    "#A569BD"
+                ],
+                "title": "README",
+                "type": "script",
+                "key": "readme",
+                "value": "this.method.readme"
+            }
+        ]
+    }
+]
