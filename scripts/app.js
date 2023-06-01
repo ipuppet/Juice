@@ -1,17 +1,8 @@
-const { UIKit, Kernel, FileStorage, Setting } = require("./lib/easy-jsbox")
+const { Kernel } = require("./lib/easy-jsbox")
 
 class AppKernel extends Kernel {
-    constructor(init = true) {
+    constructor() {
         super()
-        this.query = $context.query
-        // FileStorage
-        this.fileStorage = new FileStorage()
-        // Setting
-        this.setting = new Setting({ fileStorage: this.fileStorage })
-        this.setting.loadConfig()
-        if (init) {
-            this.setting.useJsboxNav()
-        }
     }
 }
 

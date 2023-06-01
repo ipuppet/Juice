@@ -1,5 +1,5 @@
 {
-  "dependencies": {
-    "juice": "^9.0.0"
-  }
+    "dependencies": {
+        "juice": "^9.0.0"
+    }
 }
